@@ -1,0 +1,198 @@
+*{background-color: rgb(94, 109, 238);}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+main { 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+}
+
+.input-texto{
+    width: 500px; 
+    height: 500px;
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 10% 0;
+    text-align: center;
+    border: solid purple 2px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+.btn-codificar{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    width: 200px;
+    height: 30px;
+    border: solid purple 2px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.btn-codificar:hover{
+    color: aliceblue;
+    transform: scale(1.1) rotate(10deg);
+    border-radius: 70%;
+    background-color: rgb(124, 124, 255);
+}
+
+.btn-decodificar{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10% 0;
+    width: 200px;
+    height: 30px;
+    border: solid purple 2px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.btn-decodificar:hover{
+    color: aliceblue;
+    transform: scale(1.1) rotate(10deg);
+    border-radius: 70%;
+    background-color: rgb(124, 124, 255);
+}
+
+.btn-copiar{
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10% 0;
+    width: 200px;
+    height: 30px;
+    border: solid purple 2px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.btn-copiar:hover{
+    color: aliceblue;
+    transform: scale(1.1) rotate(-10deg);
+    border-radius: 70%;
+    background-color: rgb(124, 124, 255);
+}
+.container {
+   margin-top: 100px;
+   margin-left: 100px;
+   
+}
+
+.resultado {
+    width: 300px;
+   height: 500px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 10px 5px 5px black;
+   background-image:url(../img/3852de79349df5c8f2dd484d2c5d042a.jpg);
+   background-repeat: no-repeat, repeat-x;
+   background-position: bottom;
+   background-size: 150px;
+   
+}
+.resultado:focus{
+    background-image:url(../img/marple-aponta.jpg);
+    
+}
+/*1170px*/
+@media(max-width: 1170px)
+{
+.input-texto{
+    width: 300px;
+    height: 300px;
+}
+.resultado {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 5px 5px black;
+ }
+}
+
+/*800px*/
+@media(max-width: 800px)
+{
+main{
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: auto; 
+}
+.input-texto{
+    width: 400px;
+    height: 400px;
+}
+section{
+    margin-left: 100px;
+}
+.btn-codificar{
+    margin-right: -10px;
+    margin-left: -3px;
+    width: 190px;
+}
+.resultado {
+   width: 400px;
+   height: 400px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 10px 5px 5px black;
+}
+
+}
+
+/*610px*/
+@media(max-width: 610px)
+{
+main{
+    width: 500px;
+    display: contents;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: auto; 
+}
+.input-texto{
+    width: auto;
+    height: 300px;
+}
+section{
+    margin-left: 100px;
+}
+.btn-codificar{
+    width: 190px;
+    margin-left: 0px;
+    margin-right: 0px;}
+.btn-decodificar{
+    margin-left: 0;
+    margin-right: 0;
+}
+.resultado {
+   width: 300px;
+   height: 300px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 10px 5px 5px black;
+}
+
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 100px;
+}
+.end-page{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.copyright{
+    
+    font-size: 50px;
+}
+.img-footer{
+    width: 80px;
+    height: 80px;
+}
+

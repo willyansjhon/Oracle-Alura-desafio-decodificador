@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <img class='logo' src="./img/aluralogo.png" alt="alura logo">
+        </div>
+    </header>
+
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+
+            <div class="informacao">
+                <ul class="mensagens-erro"></ul>
+            </div>
+
+            <div class="botoes">
+                <button type="button" class="btn-codificar">Codificar</button>
+                <button type="button" class="btn-decodificar">Decodificar</button>
+            </div>
+        </section>
+
+        <section class="container">
+            <textarea class="resultado" cols="20" rows="11" placeholder="Seu Texto aparecerá aqui!" readonly></textarea>
+            <button type="button" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <div class="end-page">
+           <a href="https://github.com/willyansjhon"> <img class="img-footer" src="./img/favpng_social-media-github-logo.png" alt="git logo"></a>
+            <h3 class="copyright">copyrights Willteam</h3>    
+        </div>
+        
+    </footer>
+
+    <script src="js/cripto.js"></script>
+    <script src="js/validador.js"></script>
+    <script src="js/copiar.js"></script>
+        
+</body>
+</html>
